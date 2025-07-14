@@ -88,7 +88,7 @@ DOM.generate.addEventListener('click', () => {
         const newWord = `${randomPrefixCV}${categorySpecificCV}`;
 
         // 出力例: 元の単語 (カテゴリ) -> 生成された単語
-        generatedWordsResult.push(`${item.originalWord} (${category}) -> ${newWord}`);
+        generatedWordsResult.push(`${item.originalWord} ${category} ${newWord}`);
     });
 
     // 7. 結果を表示
